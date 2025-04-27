@@ -63,32 +63,10 @@ python train.py --data_path /path/to/utkface --batch_size 32 --epochs 100
 python evaluate.py --data_path /path/to/utkface --checkpoint /path/to/model.pth
 ```
 
-### Inference
 
-```bash
-python inference.py --image /path/to/image.jpg --checkpoint /path/to/model.pth
-```
-
-## Results
-
-Our model achieves state-of-the-art performance on gender and age detection:
-
-- Gender Classification Accuracy: 95%+
-- Age Estimation Mean Absolute Error: < 5 years
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Citation
 
-If you use this code for your research, please cite our work:
-
-```
-@article{scgnet2025,
-  title={SCGNet: A Spatial Cross-scale Guided Network for Accurate Gender and Age Detection},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
